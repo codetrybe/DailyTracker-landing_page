@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         'dtSkyBlue': '#007AFF',
         'dtDarkBlue': '#0E1133',
-        'dtgraybg': '#505056',
+        'dtgraybg': '#505056'
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
