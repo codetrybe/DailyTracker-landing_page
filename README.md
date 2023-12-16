@@ -1,1 +1,0 @@
-This README provides an overview of the Daily Tracker web app and instructions on how to use it.
