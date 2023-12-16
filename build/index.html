@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyTracker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> -->
+</head>
+<body class="font-roboto p-0 m-0">
+    <nav class="relative container mx-auto p-6">
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2 flex flex-row">
+                <h1 class="text-3xl font-bold">
+                    <a href="#Hero" class="ml-2 text-dtSkyBlue">Daily<span class="text-dtDarkBlue">Tracker</span></a>
+                </h1>
+            </div>            
+            <!-- Menu Items -->
+            <div class="hidden mx-auto md:flex space-x-8 font-semibold text-white">
+                <a href="#Hero" class="hover:border-b-2 hover:border-white">Home</a>
+                <a href="#features" class="hover:border-b-2 hover:border-white">Features</a>
+                <a href="#" class="hover:border-b-2 hover:border-white">Screen</a>
+                <a href="#" class="hover:border-b-2 hover:border-white">Pricing</a>
+                <a href="#testimonial" class="hover:border-b-2 hover:border-white">Testimonial</a>
+                <a href="#Contact" class="hover:border-b-2 hover:border-white">Contact</a>
+            </div>
+            <!-- Hamburger icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md z-1000">
+                <a href="#Hero">Home</a>
+                <a href="#features">Features</a>
+                <a href="">Screen</a>
+                <a href="">Pricing</a>
+                <a href="#testimonial">Testimonial</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </div>
+     </nav>
+     <!-- Hero Section -->
+     <section id="Hero">
+        <!-- flex container -->
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <!-- Left item -->
+            <div class="flex flex-col mb-32 space-y-0 md:w-1/2 gap-6">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                    Apps compatible with Air Description of features 
+                </h1>
+                <p class="max-w-sm text-center text-gray-700 md:text-left">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <div class="flex justify-center md:justify-start">
+                    <a href="#" class="p-3 px-6 pt-2 text-white bg-black rounded-2xl font-roboto font-bold baseline hover:bg-dtSkyBlue"> Get Started</a>
+                </div>
+                
+                
+            </div>
+            
+            <!-- Right image -->
+            <div class="md:w-1/2">
+                <img class="w-full md:transform md:-rotate-6" src="./img/dailyTracker-Phone-Mockup2.png" alt="">
+            </div>
+        </div>
+     </section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
