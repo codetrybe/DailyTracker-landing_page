@@ -10,8 +10,14 @@ module.exports = {
         'blue':'#0000FF',
         'gold':' #FFDF00'
       },
+      padding:{
+        't':'100px',
+        'b':'100px',
+        'r':'320px',
+        'l':'320px'
+      },
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif', 'rubik'],
       },
 
       screen: {
