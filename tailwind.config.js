@@ -6,10 +6,16 @@ module.exports = {
       colors: {
         'dtSkyBlue': '#007AFF',
         'dtDarkBlue': '#0E1133',
-        'dtgraybg': '#505056'
+        'dtgraybg': '#505056',
+        'blue':'#0000FF',
+        'gold':' #FFDF00'
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
+      },
+
+      screen: {
+        'ipad':'768'
       },
     },
   },
